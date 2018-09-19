@@ -1,0 +1,170 @@
+body{
+	background-color: #ebf9fa;
+	overflow-x: hidden; 
+}
+a{
+	color: #000000;
+}
+div.container{
+	width: 1366px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+}
+div.container nav.top{
+	background-color: #2abdc9;
+	width: 100%;
+	height: 20px;
+	padding: 20px 0 20px 0;
+	font-size: 20px;
+}
+nav.top ul.menu{
+	list-style: none;
+	float: left;
+	margin-left: 105px;
+}
+ul.menu li{
+	float: left;
+	margin-right: 15px;
+	line-height: 1px;
+}
+nav.top input.search{
+	border-radius: 8px;
+	-webkit-transition: background-color 0.8s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.8s;
+    background-color: #81EBF1;
+    color: #ffffff;
+    width: 60px;
+
+}
+nav.top input.search:hover{
+	border-radius: 8px;
+    color: #93C4F5;
+    background-color: #ffffff; 
+    width: 60px;
+}
+nav.top a{
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: color 0.8s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.8s;
+}
+nav.top a:hover{
+	color: #ffffff;
+
+}
+div.btn{
+	margin: 25px 0 0 105px;
+}
+button.btn-input a,
+button.btn-cancel a,
+button.btn-tampil a{
+	text-decoration: none;
+	color: #000000;
+}
+div.pemesan input.btn-pemesan{
+    position: relative;
+    top: 45px;
+    right: 65px;
+}
+nav.top span.right{
+	float: right;
+	margin-right: 150px; 
+}
+div.container div.content{
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	padding-top: 25px;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 25px; 
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+}
+div.pemesan {
+	width: 350px;
+    margin-left: 25px;
+}
+div.data {
+	clear: both;
+}
+div.data h4 {
+	float: left;
+	margin: 5px;
+}
+div.data input.dataInput,
+div.data select.dataInput{
+	top: 6px;
+	position: relative;
+	float: right;
+}
+div.data div.dataInput{
+    border: 1px solid #000000;
+    width: 152px;
+    background-color: #ffffff;
+    margin-left: 196px;
+}
+div.tamu {
+	clear: both;
+	margin: 80px 0 0 33px;
+}
+div.tamu h4{
+	float: left;
+	width: 154px;
+	padding-left: 3px;
+}
+div.action {
+	width: 240px;
+    margin: 15px 0 0 372px;
+}
+div.tambah-akun{
+	margin: 55px 0 0 20px;
+}
+div.tamu div.dataTamu{
+	clear: both;
+}
+.msgtrue{
+	margin-top: 40px;
+    color: #074FF7;
+}
+
+.msgfalse{
+	margin-top: 40px;
+    color: #ff0000;	
+}
+}
+button.btn-pemesan {
+	position: relative;
+	top: 40px;
+	right: 5pc;
+}
+input.btn-input{
+	margin-top: 60px;
+}
+
+/* login */
+div.container div.login{
+	height: 465px;
+}
+div.login form.data{
+	margin: auto;
+    width: 154px;
+}
+footer{
+	width: 1366px;
+	height: 150px;
+	background-color: #2abdc9;
+	text-align: center;
+    line-height: 150px;
+}

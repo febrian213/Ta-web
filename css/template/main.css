@@ -1,0 +1,144 @@
+/* css document */
+
+h5{
+	font-size: 20px;
+	width: 450px;
+	text-align: justify;
+	margin: auto;
+	color: #ffffff;
+	font-family: 'Share Tech Mono';
+	position: relative;
+	bottom: 500px;
+}
+h4.heading4{
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    right: 113px;
+    margin-bottom: 15px;
+}
+p.p-home{
+	font-size: 18px;
+	width: 400px;
+	padding: 25px;
+	text-align: justify;
+	margin: auto;
+	color: #000000;
+	font-family: 'Share Tech Mono';
+	position: relative;
+	bottom: 500px;
+	background: rgba(255,255,255, 0.6);
+}
+p.p-hotel{
+	font-size: 18px;
+	width: 400px;
+	padding: 25px;
+	text-align: justify;
+	margin: auto;
+	color: #000000;
+	font-family: 'Share Tech Mono';
+	position: relative;
+	bottom: 250px;
+	background: rgba(255,255,255, 0.6);
+}
+img{
+	width: 200%;
+	height: 100%;
+}
+img.right{
+	position: relative;
+	right: 682px;
+	bottom: 131px;
+}
+ul li.dropdown{
+	display: list-item;
+	margin: 0;
+	width: 150px;
+	background-color: #ffffff;
+}
+ul.menu{
+	display: none;
+	background: rgba(255, 255, 255, 0.298039);
+}
+.arrow-up{
+	width: 0;
+	height: 0;
+	margin-left: 25px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid white;
+}
+div.input{
+	width: 350px;
+}
+span{
+	float: left;
+}
+input.input-text,
+select.input-option{
+	float: right;
+	margin: 5px;
+}
+div.clear{
+	clear: both;
+}
+div.booking{
+	color: #ffffff;
+	width: 350px;
+	margin-left: 100px;
+	top: 60px;
+	position: relative;
+}
+h1.right{
+	-ms-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+	position: relative;
+	left: 205px;
+	top: 125px;
+	color: #ffffff;
+	font-family: 'Pacifico', cursive;	
+	z-index: 1000;
+}
+h1.dx{
+	font-family: 'Yellowtail', cursive;
+	color: #ffffff;
+	-ms-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+	position: relative;
+	left: 170px;
+	top: 50px;
+	color: #ffffff;
+	z-index: 1000;
+}
+img.img-hotel{
+	height: 50%;
+	width: 100%;
+	float: left;
+}
+div.content-left{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+div.content-right{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	bottom: 168px;
+}
+#footer{
+	bottom:0px;
+	left: 5%;
+	border-top: 2px solid #f2f2f2;
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 90%;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+}
